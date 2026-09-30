@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Developer Portfolio & AI Coding Ground</title>
+<style>
+   :root {
+     --bg: #0f172a;
+     --card-bg: #1e293b;
+     --accent: #38bdf8;
+     --text: #f8fafc;
+     --text-dim: #94a3b8;
+   }
+   * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   body {
+     background-color: var(--bg);
+     color: var(--text);
+     line-height: 1.6;
+     padding: 2rem 1rem;
+   }
+   .container {
+     max-width: 900px;
+     margin: 0 auto;
+   }
+   header {
+     text-align: center;
+     padding: 3rem 1rem;
+     background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+     border-radius: 12px;
+     border: 1px solid #334155;
+     margin-bottom: 2rem;
+   }
+   header h1 {
+     font-size: 2.5rem;
+     color: var(--accent);
+     margin-bottom: 0.5rem;
+   }
+   header p {
+     color: var(--text-dim);
+     font-size: 1.1rem;
+   }
+   section {
+     background-color: var(--card-bg);
+     border-radius: 12px;
+     padding: 2rem;
+     margin-bottom: 2rem;
+     border: 1px solid #334155;
+   }
+   h2 {
+     color: var(--accent);
+     font-size: 1.5rem;
+     border-bottom: 2px solid #334155;
+     padding-bottom: 0.5rem;
+     margin-bottom: 1.5rem;
+   }
+   /* Education & Projects Styling */
+   .card-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+     gap: 1.5rem;
+   }
+   .card {
+     background-color: #0f172a;
+     padding: 1.5rem;
+     border-radius: 8px;
+     border: 1px solid #334155;
+   }
+   .card h3 {
+     color: #white;
+     margin-bottom: 0.5rem;
+   }
+   .card .date {
+     font-size: 0.85rem;
+     color: var(--accent);
+     margin-bottom: 0.75rem;
+   }
+   .tag {
+     display: inline-block;
+     background-color: #0284c7;
+     color: white;
+     padding: 0.2rem 0.6rem;
+     border-radius: 4px;
+     font-size: 0.75rem;
+     margin-top: 0.5rem;
+   }
+   footer {
+     text-align: center;
+     color: var(--text-dim);
+     font-size: 0.9rem;
+     margin-top: 3rem;
+   }
+</style>
+</head>
+<body>
+<div class="container">
+<!-- HOME / HERO SECTION -->
+<header>
+<h1>Hello, I'm Melody 👋</h1>
+<p>Student & Aspiring Software Developer | Class Assignment Portfolio</p>
+</header>
+<!-- EDUCATION SECTION -->
+<section>
+<h2>🎓 Education</h2>
+<div class="card-grid">
+<div class="card">
+<h3>Bachelor of Science in Information Technology</h3>
+<div class="date">Present</div>
+<p>Currently studying software design, web deployment, and exploring AI-assisted developer workflows.</p>
+</div>
+</div>
+</section>
+<!-- PROJECTS SECTION -->
+<section>
+<h2>💻 Projects</h2>
+<div class="card-grid">
+<div class="card">
+<h3>First Portfolio Deployment</h3>
+<div class="date">GitHub & Vercel Integration</div>
+<p>Created and published this live website using GitHub repositories and Vercel hosting automation.</p>
+<span class="tag">HTML/CSS</span>
+<span class="tag">Vercel</span>
+<span class="tag">GitHub</span>
+</div>
+</div>
+</section>
+<!-- AI CODING GROUND EXPLORATION -->
+<section>
+<h2>🤖 AI Coding Ground Exploration</h2>
+<div class="card-grid">
+<div class="card">
+<h3>Devin (by Cognition)</h3>
+<p>An autonomous AI software engineer capable of planning, writing code, debugging, and running terminal commands in an isolated sandbox.</p>
+</div>
+<div class="card">
+<h3>Codex (by OpenAI)</h3>
+<p>An advanced neural network fine-tuned for real-time code completion, translation, and natural-language-to-code generation.</p>
+</div>
+</div>
+</section>
+<footer>
+<p>© 2026 Melody | Deployed with Vercel</p>
+</footer>
+</div>
+</body>
+</html>
