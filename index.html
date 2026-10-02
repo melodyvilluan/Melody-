@@ -1,326 +1,383 @@
-!DOCTYPE html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Melody Villuan | Personal Portfolio</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
 
-	<title>Final Project</title>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#f5f3ff',
+              100: '#ede9fe',
+              200: '#ddd6fe',
+              300: '#c4b5fd',
+              400: '#a78bfa',
+              500: '#8b5cf6',
+              600: '#7c3aed',
+              700: '#6d28d9',
+              800: '#5b21b6',
+              900: '#4c1d95',
+            }
+          }
+        }
+      }
+    }
+  </script>
 
-<style>
-
-	body
-{font-family: Calibri, sans-serif; margin: 20px; color: #05059E; line-height: 1.5; background-color: #F9F37B;}
-
-	table, th, td
-{border: 1px solid; border-collapse:collapse; border-color: #05059E; padding: 8px;}
-	
-	h2
-{text-align: center;}
-
-	h3
-{background-color: #05059E; color: #F9F37B; margin-left: 40px; margin-right: 40px;}	
-
-	hr
-{height: 1px; background-color: #05059E;}
-
-        form
-{margin-top: 15px; color: #05059E}
-
-        input, textarea
-{width: 100%; padding: 6px; margin-bottom: 10px;}
-
-</style>
-
+  <style>
+    body {
+      background-color: #0f172a;
+      background-image: 
+        radial-gradient(at 0% 0%, rgba(139, 92, 246, 0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(59, 130, 246, 0.12) 0px, transparent 50%);
+      background-attachment: fixed;
+    }
+    .glass-card {
+      background: rgba(30, 41, 59, 0.7);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+  </style>
 </head>
-
-<body>
-
-<h1 style="text-align: center; background-color: #05059E; color: #FAFA57; margin: 0px;">My College Experience</h1>
-<p style="text-align: center;"><em>By: Melody Villuan</em></p>
-
-<hr>
-
-<h2>About Me</h2>
-
-<p>I am a striving young university student of <b>Nueva Vizcaya State University (<abbr title="Nueva Vizcaya State University">NVSU</abbr>)</b>. I love <mark style="background-color: #57d2ff;">music</mark>, <u>hanging out with my friends</u>, and enjoy <b><q>Life</q></b> as I live it a day at a time. I chose to study for the college course <strong>"Bachelor of Science in Information Technology - Web and Mobile Applications Development" (<abbr title="Bachelor of Science in Information Technology - Web and Mobile Applications Development">BSIT-WMAD</abbr>)</strong> to learn about coding, network with my fellow learners that wants to further their career, and try my best to make my family and friends proud.</p>
-
-<table style="padding: 0px; width: 100%; text-align: center;">
-<tr>
-
-<td>
-<img src="https://i.imgur.com/tapVmD8.jpeg" alt="Me" height="150"><br>
-</td>
-
-<td>
-<img src="https://i.imgur.com/RFbEV0y.jpeg" alt="Fam" height="150"><br>
-</td>
-
-</tr>
-
-<tr>
-
-<td>
-<p>Me, as a Singer of a Pageant</p>
-</td>
-
-<td>
-<p>My Inspiration</p>
-</td>
-
-</tr>
-</table>
-
-<hr>
-
-<div style="text-align: center;">
-<h2>History in NVSU</h2>
-
-<h3>1<sup>st</sup> Year - 1<sup>st</sup> Semester</h3>
-<p>Very exciting 1st step as a college student. I was part of the section BSIT-1A and together with the class we were able to tackle our first introduction to our course, specifically the two major courses, <b><q>Introduction to Computing</q>, and <q>Computer Programming 1</q></b>. Other than the major subjects, these are the other courses that I took:</p>
-
-<ul style="list-style-type: square">
-<li><u>Environmental Science</u></li>
-<li><u>Mathematics in the Modern World</u></li>
-<li><u>Understanding the Self</u></li>
-<li><u>Art Aprreciation</u></li>
-<li><u>Physical Activities Towards Health and Fitness 1</u></li>
-<li><u><abbr title="Reserve Officer's Training Course">ROTC</abbr> - Basic Course</u></li>
-</ul>
-
-<h3>1<sup>st</sup> Year - 2<sup>nd</sup> Semester</h3>
-<p>A coninuation of my 1st school year as part of the BSIT-1A section. After passing all my courses in the 1st semester, the next majors I had to take were, <b><q>Computer Programming 2</q>, <q>Discrete Mathematics</q>, and <q>Data Structures and Algorithms</q></b>. Here are the other courses:</p>
-
-<ul style="list-style-type: square">
-<li><u>Philippine Indigenous Community</u></li>
-<li><u>Science, Technology, and Society</u></li>
-<li><u>The Contemporary World</u></li>
-<li><u>Physical Activities Towards Health and Fitness 2</u></li>
-<li><u><abbr title="Reserve Officer's Training Course">ROTC</abbr> 2 - Basic Course</u></li>
-</ul>
-
-<h3>2<sup>nd</sup> Year - 1<sup>st</sup> Semester</h3>
-<p>My latest step forward for my college journey and my new section is that of BSIT - 2D. I now have both new and old classmates to work together with as we come forward with four major courses - <b>"Webpage Design Using HTML 5", "Information Management", "Platform Technologies" and "Object Oriented Programming</b>. Collaborating with the challenges of new topics to tackle, are these minor subjects:</p>
-
-<ul style="list-style-type: square">
-<li><u>Ethics</u></li>
-<li><u>Readings in Philippine History</u></li>
-<li><u>The Entrepreneurial Mind</u></li>
-<li><u>Physical Activities Towards Health and Fitness 3</u></li>
-</ul>
-
-<hr>
-
-<h2>My Schedule</h2>
-
-<p>
-Here is my current class schedule for the 1<sup>st</sup> semester as a 2<sup>nd</sup> year student.
-</p>
-
-<p>Year Two | First Semester</p>
-
-<table border="1" cellpadding="6" width="100%;">
-
-<tr>
-<th>Day</th>
-<th>Time</th>
-<th>Subject</th>
-<th>Room / Code</th>
-</tr>
-
-<tr>
-<td rowspan="6">Monday</td>
-<td>8:00 - 9:00</td>
-<td>Webpage Design using HTML 5</td>
-<td>GS 201</td>
-</tr>
-
-<tr>
-<td>9:00 - 10:00</td>
-<td>Object Oriented Programming</td>
-<td>GS 202</td>
-</tr>
-
-<tr>
-<td>10:00 - 11:00</td>
-<td>Ethics</td>
-<td>CAS 201</td>
-</tr>
-
-<tr>
-<td>11:00 - 12:00</td>
-<td>The Entrepreneurial Mind</td>
-<td>B 102</td>
-</tr>
-
-<tr>
-<td>1:00 - 2:00</td>
-<td>Platform Technologies</td>
-<td>GS 203</td>
-</tr>
-
-<tr>
-<td>2:00 - 6:00</td>
-<td>Platform Technologies</td>
-<td>ITE 202</td>
-</tr>
-
-<tr>
-<td rowspan="3">Tuesday</td>
-<td>10:00 - 1:00</td>
-<td>Object Oriented Programming</td>
-<td>ITE 203</td>
-</tr>
-
-<tr>
-<td>2:00 - 3:00</td>
-<td>Information Management</td>
-<td>CAS 207</td>
-</tr>
-
-<tr>
-<td>3:30 - 5:00</td>
-<td>Readings in Philippine History</td>
-<td>A 300</td>
-</tr>
-
-<tr>
-<td rowspan="6">Wednesday</td>
-<td>8:00 - 9:00</td>
-<td>Webpage Design using HTML 5</td>
-<td>GS 201</td>
-</tr>
-
-<tr>
-<td>9:00 - 10:00</td>
-<td>Object Oriented Programming</td>
-<td>GS 202</td>
-</tr>
-
-<tr>
-<td>10:00 - 11:00</td>
-<td>Ethics</td>
-<td>CAS 201</td>
-</tr>
-
-<tr>
-<td>11:00 - 12:00</td>
-<td>The Entrepreneurial Mind</td>
-<td>B102</td>
-</tr>
-
-<tr>
-<td>1:00 - 2:00</td>
-<td>Platform Technologies</td>
-<td>GS 203</td>
-</tr>
-
-<tr>
-<td>2:00 - 3:00</td>
-<td>Physical Activities Toward Health and Fitness 3</td>
-<td>GYM</td>
-</tr>
-
-<tr>
-<td rowspan="3">Thursday</td>
-<td>10:00 - 1:00</td>
-<td>Webpage Design using HTML 5</td>
-<td>ITE 201</td>
-</tr>
-
-<tr>
-<td>2:00 - 3:00</td>
-<td>Information Management</td>
-<td>CAS 207</td>
-</tr>
-
-<tr>
-<td>3:30 - 5:00</td>
-<td>Readings in Philippine History</td>
-<td>A 300</td>
-</tr>
-
-<tr>
-<td rowspan="4">Friday</td>
-<td>7:00 - 10:00</td>
-<td>Information Management</td>
-<td>ITE 201</td>
-</tr>
-
-<tr>
-<td>10:00 - 11:00</td>
-<td>Ethics</td>
-<td>CAS 201</td>
-</tr>
-
-<tr>
-<td>11:00 - 12:00</td>
-<td>The Entrepreneurial Mind</td>
-<td>B102</td>
-</tr>
-
-<tr>
-<td>2:00 - 3:00</td>
-<td>Physical Activities Toward Health and Fitness 3</td>
-<td>GYM</td>
-</tr>
-
-</table>
-
-</div>
-<br>
-
-<hr>
-
-<h2>Contact Me</h2>
-<p>Use the form below to send a message:</p>
-
-<form action="/submit" method="Post">
-<label>Your Name:</label>
-<input type="text" name="name" required>
-
-<label>Your Email:</label>
-<input type="email" name="email" required>
-
-<label>Your Message:</label>
-<textarea name="message" rows="5" required></textarea>
-
-<input type="submit" value="Send Message">
-</form>
-
-<hr>
-
-<h3 style="text-align: center;">You can also visit our University's sites by clicking the center of these images:</h3>
-
-<p style="text-align: center;">
-
-<strong>Official Website:</strong>
-<br>
-
-<a href="https://www.nvsu.edu.ph/" target="_blank">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwiv4gKZnU0G2Fp9pJSpB5myy13w_zKZc4rw&s" alt="NVSU Logo" style ="border-radius: 80px;" width="180">
-</a>
-<br>
-
-<strong>Facebook Page:</strong>
-<br>
-
-<a href="https://www.facebook.com/nvsu1916/" target="_blank">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXN9xSEe8unzPBEQOeAKXd9Q55efGHGB9BA&s" alt="Facebook Logo" style ="border-radius: 110px;" width="195">
-</a>
-
-<br>
-
-<strong>Enrollment Page:</strong>
-<br>
-
-<a href="https://ncat.nvsu.edu.ph/iapply" target="_blank">
-<img src="https://www.manilatimes.net/manilatimes/uploads/images/2021/11/18/27512.jpg" alt="NVSU Admin" style ="border-radius: 30px;" width="400">
-</a>
-
-<br>
-</p>
-
-<hr>
+<body class="font-sans text-slate-200 min-h-screen py-10 px-4 sm:px-8 max-w-5xl mx-auto">
+
+  <!-- Header Banner -->
+  <header class="text-center py-12 px-6 rounded-3xl glass-card mb-12 shadow-2xl relative overflow-hidden">
+    <div class="absolute -top-10 -left-10 w-40 h-40 bg-purple-500/20 rounded-full blur-3xl"></div>
+    <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-blue-500/20 rounded-full blur-3xl"></div>
+    
+    <span class="inline-block px-3 py-1 bg-purple-500/10 text-purple-300 border border-purple-500/20 rounded-full text-xs font-medium tracking-wider uppercase mb-4">
+      BSIT - Web & Mobile Applications Development
+    </span>
+    <h1 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight mb-2">
+      My College Experience
+    </h1>
+    <p class="text-slate-400 font-medium">By <span class="text-purple-300 font-semibold">Melody Villuan</span></p>
+  </header>
+
+  <!-- About Me Section -->
+  <section class="glass-card rounded-3xl p-6 sm:p-10 mb-12 shadow-xl">
+    <h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+      <span class="w-2 h-6 bg-purple-500 rounded-full inline-block"></span>
+      About Me
+    </h2>
+    <p class="text-slate-300 leading-relaxed mb-8 text-base sm:text-lg">
+      I am a striving young university student of <strong class="text-white">Nueva Vizcaya State University (<abbr title="Nueva Vizcaya State University" class="no-underline text-purple-300 border-b border-purple-400/40">NVSU</abbr>)</strong>. 
+      I love <mark class="bg-purple-500/30 text-purple-200 px-2 py-0.5 rounded border border-purple-400/30">music</mark>, 
+      <span class="underline decoration-purple-400/50 underline-offset-4">hanging out with my friends</span>, and enjoy <em>"Life"</em> as I live it a day at a time. 
+      I chose to study for the college course <strong class="text-white">"Bachelor of Science in Information Technology - Web and Mobile Applications Development" (<abbr title="Bachelor of Science in Information Technology - Web and Mobile Applications Development" class="no-underline text-purple-300 border-b border-purple-400/40">BSIT-WMAD</abbr>)</strong> 
+      to learn about coding, network with my fellow learners who want to further their career, and try my best to make my family and friends proud.
+    </p>
+
+    <!-- Photo Gallery Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-slate-800/60 p-4 rounded-2xl border border-slate-700/50 text-center flex flex-col items-center">
+        <div class="overflow-hidden rounded-xl mb-4 w-full h-64 flex items-center justify-center bg-slate-900/50">
+          <img src="https://i.imgur.com/tapVmD8.jpeg" alt="Me" class="object-cover h-full w-full hover:scale-105 transition-transform duration-300">
+        </div>
+        <p class="font-medium text-slate-300 text-sm">Me, as a Singer of a Pageant</p>
+      </div>
+
+      <div class="bg-slate-800/60 p-4 rounded-2xl border border-slate-700/50 text-center flex flex-col items-center">
+        <div class="overflow-hidden rounded-xl mb-4 w-full h-64 flex items-center justify-center bg-slate-900/50">
+          <img src="https://i.imgur.com/RFbEV0y.jpeg" alt="Fam" class="object-cover h-full w-full hover:scale-105 transition-transform duration-300">
+        </div>
+        <p class="font-medium text-slate-300 text-sm">My Inspiration</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- History in NVSU Section -->
+  <section class="glass-card rounded-3xl p-6 sm:p-10 mb-12 shadow-xl">
+    <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+      <span class="w-2 h-6 bg-blue-500 rounded-full inline-block"></span>
+      History in NVSU
+    </h2>
+
+    <div class="space-y-8">
+      <!-- 1st Year 1st Sem -->
+      <div class="bg-slate-800/40 border border-slate-700/50 rounded-2xl p-6">
+        <h3 class="text-lg font-bold text-purple-300 mb-2">1<sup>st</sup> Year &mdash; 1<sup>st</sup> Semester</h3>
+        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+          A very exciting 1st step as a college student. I was part of section BSIT-1A and together with the class we tackled our first introduction to our course, specifically the two major courses: <strong class="text-slate-100">"Introduction to Computing"</strong> and <strong class="text-slate-100">"Computer Programming 1"</strong>.
+        </p>
+        <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Other Courses:</div>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1 bg-slate-900/60 border border-slate-700 text-slate-300 rounded-lg text-xs">Environmental Science</span>
+          <span class="px-3 py-1 bg-slate-900/60 border border-slate-700 text-slate-300 rounded-lg text-xs">Mathematics in the Modern World</span>
+          <span class="px-3 py-1 bg-slate-900/60 border border-slate-700 text-slate-300 rounded-lg text-xs">Understanding the Self</span>
+          <span class="px-3 py-1 bg-slate-900/60 border border-slate-700 text-slate-300 rounded-lg text-xs">Art Appreciation</span>
+          <span class="px-3 py-1 bg-slate-900/60 border border-slate-700 text-slate-300 rounded-lg text-xs">Physical Activities Towards Health & Fitness 1</span>
+          <span class="px-3 py-1 bg-slate-900/60 border border-slate-700 text-slate-300 rounded-lg text-xs">ROTC 1 - Basic Course</span>
+        </div>
+      </div>
+
+      <!-- 1st Year 2nd Sem -->
+      <div class="bg-slate-800/40 border border-slate-700/50 rounded-2xl p-6">
+        <h3 class="text-lg font-bold text-purple-300 mb-2">1<sup>st</sup> Year &mdash; 2<sup>nd</sup> Semester</h3>
+        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+          A continuation of my 1st school year in BSIT-1A. After passing all courses in the 1st semester, the next majors I took were <strong class="text-slate-100">"Computer Programming 2"</strong>, <strong class="text-slate-100">"Discrete Mathematics"</strong>, and <strong class="text-slate-100">"Data Structures and Algorithms"</strong>.
+        </p>
+        <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Other Courses:</div>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1 bg-slate-900/60 border border-slate-700 text-slate-300 rounded-lg text-xs">Philippine Indigenous Community</span>
+          <span class="px-3 py-1 bg-slate-900/60 border border-slate-700 text-slate-300 rounded-lg text-xs">Science, Technology, and Society</span>
+          <span class="px-3 py-1 bg-slate-900/60 border border-slate-700 text-slate-300 rounded-lg text-xs">The Contemporary World</span>
+          <span class="px-3 py-1 bg-slate-900/60 border border-slate-700 text-slate-300 rounded-lg text-xs">Physical Activities Towards Health & Fitness 2</span>
+          <span class="px-3 py-1 bg-slate-900/60 border border-slate-700 text-slate-300 rounded-lg text-xs">ROTC 2 - Basic Course</span>
+        </div>
+      </div>
+
+      <!-- 2nd Year 1st Sem -->
+      <div class="bg-slate-800/40 border border-slate-700/50 rounded-2xl p-6">
+        <h3 class="text-lg font-bold text-purple-300 mb-2">2<sup>nd</sup> Year &mdash; 1<sup>st</sup> Semester</h3>
+        <p class="text-slate-300 text-sm leading-relaxed mb-4">
+          My latest step forward in section BSIT-2D. Working alongside classmates on four core majors: <strong class="text-slate-100">"Webpage Design Using HTML 5"</strong>, <strong class="text-slate-100">"Information Management"</strong>, <strong class="text-slate-100">"Platform Technologies"</strong>, and <strong class="text-slate-100">"Object Oriented Programming"</strong>.
+        </p>
+        <div class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Minor Subjects:</div>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-3 py-1 bg-slate-900/60 border border-slate-700 text-slate-300 rounded-lg text-xs">Ethics</span>
+          <span class="px-3 py-1 bg-slate-900/60 border border-slate-700 text-slate-300 rounded-lg text-xs">Readings in Philippine History</span>
+          <span class="px-3 py-1 bg-slate-900/60 border border-slate-700 text-slate-300 rounded-lg text-xs">The Entrepreneurial Mind</span>
+          <span class="px-3 py-1 bg-slate-900/60 border border-slate-700 text-slate-300 rounded-lg text-xs">Physical Activities Towards Health & Fitness 3</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Schedule Section -->
+  <section class="glass-card rounded-3xl p-6 sm:p-10 mb-12 shadow-xl">
+    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-2">
+      <div>
+        <h2 class="text-2xl font-bold text-white flex items-center gap-3">
+          <span class="w-2 h-6 bg-indigo-500 rounded-full inline-block"></span>
+          My Schedule
+        </h2>
+        <p class="text-slate-400 text-sm mt-1">Current Class Schedule &bull; Year 2, First Semester</p>
+      </div>
+    </div>
+
+    <div class="overflow-x-auto rounded-2xl border border-slate-700/60">
+      <table class="w-full text-left text-sm text-slate-300">
+        <thead class="bg-slate-800/90 text-slate-200 uppercase text-xs font-semibold tracking-wider border-b border-slate-700">
+          <tr>
+            <th class="py-4 px-6">Day</th>
+            <th class="py-4 px-6">Time</th>
+            <th class="py-4 px-6">Subject</th>
+            <th class="py-4 px-6">Room / Code</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-800">
+          <!-- Monday -->
+          <tr class="hover:bg-slate-800/30 transition-colors">
+            <td class="py-3.5 px-6 font-semibold text-purple-300" rowspan="6">Monday</td>
+            <td class="py-3.5 px-6">8:00 - 9:00</td>
+            <td class="py-3.5 px-6 text-white font-medium">Webpage Design using HTML 5</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">GS 201</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/30 transition-colors">
+            <td class="py-3.5 px-6">9:00 - 10:00</td>
+            <td class="py-3.5 px-6 text-white font-medium">Object Oriented Programming</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">GS 202</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/30 transition-colors">
+            <td class="py-3.5 px-6">10:00 - 11:00</td>
+            <td class="py-3.5 px-6">Ethics</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">CAS 201</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/30 transition-colors">
+            <td class="py-3.5 px-6">11:00 - 12:00</td>
+            <td class="py-3.5 px-6">The Entrepreneurial Mind</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">B 102</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/30 transition-colors">
+            <td class="py-3.5 px-6">1:00 - 2:00</td>
+            <td class="py-3.5 px-6 text-white font-medium">Platform Technologies</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">GS 203</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/30 transition-colors">
+            <td class="py-3.5 px-6">2:00 - 6:00</td>
+            <td class="py-3.5 px-6 text-white font-medium">Platform Technologies</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">ITE 202</span></td>
+          </tr>
+
+          <!-- Tuesday -->
+          <tr class="hover:bg-slate-800/30 transition-colors border-t-2 border-slate-700/50">
+            <td class="py-3.5 px-6 font-semibold text-purple-300" rowspan="3">Tuesday</td>
+            <td class="py-3.5 px-6">10:00 - 1:00</td>
+            <td class="py-3.5 px-6 text-white font-medium">Object Oriented Programming</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">ITE 203</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/30 transition-colors">
+            <td class="py-3.5 px-6">2:00 - 3:00</td>
+            <td class="py-3.5 px-6 text-white font-medium">Information Management</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">CAS 207</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/30 transition-colors">
+            <td class="py-3.5 px-6">3:30 - 5:00</td>
+            <td class="py-3.5 px-6">Readings in Philippine History</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">A 300</span></td>
+          </tr>
+
+          <!-- Wednesday -->
+          <tr class="hover:bg-slate-800/30 transition-colors border-t-2 border-slate-700/50">
+            <td class="py-3.5 px-6 font-semibold text-purple-300" rowspan="6">Wednesday</td>
+            <td class="py-3.5 px-6">8:00 - 9:00</td>
+            <td class="py-3.5 px-6 text-white font-medium">Webpage Design using HTML 5</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">GS 201</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/30 transition-colors">
+            <td class="py-3.5 px-6">9:00 - 10:00</td>
+            <td class="py-3.5 px-6 text-white font-medium">Object Oriented Programming</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">GS 202</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/30 transition-colors">
+            <td class="py-3.5 px-6">10:00 - 11:00</td>
+            <td class="py-3.5 px-6">Ethics</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">CAS 201</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/30 transition-colors">
+            <td class="py-3.5 px-6">11:00 - 12:00</td>
+            <td class="py-3.5 px-6">The Entrepreneurial Mind</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">B102</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/30 transition-colors">
+            <td class="py-3.5 px-6">1:00 - 2:00</td>
+            <td class="py-3.5 px-6 text-white font-medium">Platform Technologies</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">GS 203</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/30 transition-colors">
+            <td class="py-3.5 px-6">2:00 - 3:00</td>
+            <td class="py-3.5 px-6">PATHFit 3</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">GYM</span></td>
+          </tr>
+
+          <!-- Thursday -->
+          <tr class="hover:bg-slate-800/30 transition-colors border-t-2 border-slate-700/50">
+            <td class="py-3.5 px-6 font-semibold text-purple-300" rowspan="3">Thursday</td>
+            <td class="py-3.5 px-6">10:00 - 1:00</td>
+            <td class="py-3.5 px-6 text-white font-medium">Webpage Design using HTML 5</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">ITE 201</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/30 transition-colors">
+            <td class="py-3.5 px-6">2:00 - 3:00</td>
+            <td class="py-3.5 px-6 text-white font-medium">Information Management</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">CAS 207</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/30 transition-colors">
+            <td class="py-3.5 px-6">3:30 - 5:00</td>
+            <td class="py-3.5 px-6">Readings in Philippine History</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">A 300</span></td>
+          </tr>
+
+          <!-- Friday -->
+          <tr class="hover:bg-slate-800/30 transition-colors border-t-2 border-slate-700/50">
+            <td class="py-3.5 px-6 font-semibold text-purple-300" rowspan="4">Friday</td>
+            <td class="py-3.5 px-6">7:00 - 10:00</td>
+            <td class="py-3.5 px-6 text-white font-medium">Information Management</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">ITE 201</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/30 transition-colors">
+            <td class="py-3.5 px-6">10:00 - 11:00</td>
+            <td class="py-3.5 px-6">Ethics</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">CAS 201</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/30 transition-colors">
+            <td class="py-3.5 px-6">11:00 - 12:00</td>
+            <td class="py-3.5 px-6">The Entrepreneurial Mind</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">B102</span></td>
+          </tr>
+          <tr class="hover:bg-slate-800/30 transition-colors">
+            <td class="py-3.5 px-6">2:00 - 3:00</td>
+            <td class="py-3.5 px-6">PATHFit 3</td>
+            <td class="py-3.5 px-6"><span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs border border-slate-700">GYM</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="glass-card rounded-3xl p-6 sm:p-10 mb-12 shadow-xl">
+    <h2 class="text-2xl font-bold text-white mb-2 flex items-center gap-3">
+      <span class="w-2 h-6 bg-pink-500 rounded-full inline-block"></span>
+      Contact Me
+    </h2>
+    <p class="text-slate-400 text-sm mb-6">Send me a message below!</p>
+
+    <form action="/submit" method="POST" class="space-y-5">
+      <div>
+        <label class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">Your Name</label>
+        <input type="text" name="name" required class="w-full bg-slate-900/60 border border-slate-700 rounded-xl px-4 py-3 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all">
+      </div>
+
+      <div>
+        <label class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">Your Email</label>
+        <input type="email" name="email" required class="w-full bg-slate-900/60 border border-slate-700 rounded-xl px-4 py-3 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all">
+      </div>
+
+      <div>
+        <label class="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-2">Your Message</label>
+        <textarea name="message" rows="4" required class="w-full bg-slate-900/60 border border-slate-700 rounded-xl px-4 py-3 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all"></textarea>
+      </div>
+
+      <button type="submit" class="w-full sm:w-auto px-8 py-3.5 bg-purple-600 hover:bg-purple-500 text-white font-semibold rounded-xl transition-colors shadow-lg shadow-purple-600/30">
+        Send Message
+      </button>
+    </form>
+  </section>
+
+  <!-- University Links Section -->
+  <section class="glass-card rounded-3xl p-6 sm:p-10 mb-12 shadow-xl text-center">
+    <h3 class="text-xl font-bold text-white mb-2">Visit University Sites</h3>
+    <p class="text-slate-400 text-sm mb-8">Click on any image to visit Nueva Vizcaya State University links</p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+      <!-- Official Website -->
+      <a href="https://www.nvsu.edu.ph/" target="_blank" class="group bg-slate-800/40 border border-slate-700/50 rounded-2xl p-6 hover:border-purple-500/50 transition-all flex flex-col items-center">
+        <div class="w-24 h-24 rounded-full overflow-hidden bg-white/10 p-2 mb-4 group-hover:scale-105 transition-transform">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwiv4gKZnU0G2Fp9pJSpB5myy13w_zKZc4rw&s" alt="NVSU Logo" class="w-full h-full object-cover rounded-full">
+        </div>
+        <span class="font-semibold text-slate-200 group-hover:text-purple-300 transition-colors">Official Website</span>
+      </a>
+
+      <!-- Facebook Page -->
+      <a href="https://www.facebook.com/nvsu1916/" target="_blank" class="group bg-slate-800/40 border border-slate-700/50 rounded-2xl p-6 hover:border-purple-500/50 transition-all flex flex-col items-center">
+        <div class="w-24 h-24 rounded-full overflow-hidden bg-white/10 p-2 mb-4 group-hover:scale-105 transition-transform">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXN9xSEe8unzPBEQOeAKXd9Q55efGHGB9BA&s" alt="Facebook Logo" class="w-full h-full object-cover rounded-full">
+        </div>
+        <span class="font-semibold text-slate-200 group-hover:text-purple-300 transition-colors">Facebook Page</span>
+      </a>
+
+      <!-- Enrollment Page -->
+      <a href="https://ncat.nvsu.edu.ph/iapply" target="_blank" class="group bg-slate-800/40 border border-slate-700/50 rounded-2xl p-6 hover:border-purple-500/50 transition-all flex flex-col items-center">
+        <div class="w-24 h-24 rounded-full overflow-hidden bg-white/10 p-2 mb-4 group-hover:scale-105 transition-transform">
+          <img src="https://www.manilatimes.net/manilatimes/uploads/images/2021/11/18/27512.jpg" alt="NVSU Admin" class="w-full h-full object-cover rounded-full">
+        </div>
+        <span class="font-semibold text-slate-200 group-hover:text-purple-300 transition-colors">Enrollment Page</span>
+      </a>
+    </div>
+  </section>
+
+  <footer class="text-center text-xs text-slate-500 py-6">
+    &copy; Melody Villuan &bull; NVSU BSIT-WMAD
+  </footer>
 
 </body>
 </html>
- 
